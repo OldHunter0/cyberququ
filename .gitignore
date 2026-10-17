@@ -1,0 +1,16 @@
+# secrets
+.env
+.env.*
+!.env.example
+engine/secrets/
+.vercel/
+
+# runtime output
+.run/
+engine/logs/
+*.log
+
+# deps / build
+node_modules/
+.next/
+.DS_Store
